@@ -32,7 +32,8 @@ $cd sample-project
 $poetry add [--dev] <package name>
 ```
 
-This downloads and install a dependency inside the virtual environment managed by Poetry, and adds or updates `poetry.lock` file, and updates `pyproject.toml`.
+This downloads and install a dependency inside the virtual environment managed by Poetry,  
+and adds or updates `poetry.lock` file, and updates `pyproject.toml`.
 
 ## Remove Deoendency
 
@@ -45,8 +46,7 @@ This is very simple :)
 ## Use Virtual Environment
 
 ```bash
-# not active but
-$poetry run python
+# not active
 $poetry run python -m pytest
 
 # active
